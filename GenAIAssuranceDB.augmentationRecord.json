@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "683946abfa8198c9c72b4c90"
+  },
+  "groups": [
+    {
+      "group_name": "Noise Augmentations",
+      "augmentations": [
+        "bg_conversation_noise",
+        "string_repeat",
+        "slang",
+        "excited_tone"
+      ]
+    },
+    {
+      "group_name": "Tone Augmentations",
+      "augmentations": [
+        "excited_tone",
+        "sad_tone",
+        "rude_tone",
+        "sarcastic_tone"
+      ]
+    },
+    {
+      "group_name": "Structural Changes",
+      "augmentations": [
+        "bg_conversation_noise",
+        "string_repeat"
+      ]
+    }
+  ],
+  "all_augmentations": [
+    "bg_conversation_noise",
+    "slang",
+    "number2word",
+    "short_duration_call",
+    "paraphrase",
+    "informal",
+    "synonym_replacement",
+    "induce_toxicity",
+    "string_repeat",
+    "induce_pii",
+    "long_duration_call",
+    "test90",
+    "Synonym Replacement1",
+    "custom aug",
+    "rude_tone",
+    "induce_unethical",
+    "multilingual",
+    "sad_tone",
+    "brevity",
+    "Sample",
+    "sarcastic_tone",
+    "medium_duration_call",
+    "test",
+    "Shuffle",
+    "verbosity",
+    "excited_tone",
+    "non_lexical_fillers",
+    "word2number",
+    "alter_key_entities",
+    "broken_english",
+    "Active to Passive Voice",
+    "test91",
+    "test92",
+    "Custom_augmentation_test",
+    "Custom_augmentation_testing",
+    "test_cust_aug",
+    "test_cust_aug2",
+    "sample34",
+    "testing"
+  ],
+  "created_at": {
+    "$date": "2025-05-15T12:00:00.000Z"
+  },
+  "projectName": "SUM",
+  "customAugmentations": [
+    "custom aug",
+    "test",
+    "Synonym Replacement1",
+    "Sample",
+    "test90",
+    "Active to Passive Voice",
+    "test91",
+    "test92",
+    "Custom_augmentation_test",
+    "Custom_augmentation_testing",
+    "test_cust_aug",
+    "test_cust_aug2",
+    "sample34",
+    "testing"
+  ]
+}]

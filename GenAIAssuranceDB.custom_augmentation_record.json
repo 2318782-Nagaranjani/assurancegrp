@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "68665e61d3ecb654d3ac33b2"
+  },
+  "augmentation_name": "Custom_augmentation_test",
+  "description": "Custom_augmentation_test",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Rephrase the text in {input} to ask the same question using different phrasing, focusing on simplifying or altering the verbs, structure, and wording while preserving the original meaning.",
+  "created_at": {
+    "$date": "2025-07-03T10:41:36.844Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68665e61d3ecb654d3ac33b1"
+  },
+  "augmentation_name": "Custom_augmentation_test",
+  "description": "Custom_augmentation_test",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Transform the phrasing of {input} to reframe the question with different wording while preserving its original meaning and context.",
+  "created_at": {
+    "$date": "2025-07-03T10:41:36.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68665e60d3ecb654d3ac33ac"
+  },
+  "augmentation_name": "Custom_augmentation_test",
+  "description": "Custom_augmentation_test",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Rephrase the question in {input} to use different wording while retaining the original meaning, focusing on replacing specific terms with synonyms or alternative phrases to make the sentence more conversational or varied in structure.",
+  "created_at": {
+    "$date": "2025-07-03T10:41:19.388Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6867aaac7a5dd82e021fb770"
+  },
+  "augmentation_name": "Custom_augmentation_testing",
+  "description": "testing",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Rewrite {input} to use alternative phrasing and vocabulary while preserving the original meaning and maintaining clarity.",
+  "created_at": {
+    "$date": "2025-07-04T10:19:24.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686b9618dbc79df4bdf9b2a4"
+  },
+  "augmentation_name": "test_cust_aug",
+  "description": "test_cust_aug",
+  "datasetId": "684bd99535e0c9b46a786dfd",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Rewrite {input} by changing the phrasing to use simpler or more conversational language while maintaining the original meaning.",
+  "created_at": {
+    "$date": "2025-07-07T09:40:40.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686b96e6dbc79df4bdf9b2aa"
+  },
+  "augmentation_name": "test_cust_aug2",
+  "description": "test_cust_aug2",
+  "datasetId": "684bd99535e0c9b46a786dfd",
+  "examples": [
+    {
+      "original_input": "what is the length of the wire used to surround the core",
+      "augmented_input": "How much wire needed to wrap around the core"
+    }
+  ],
+  "prompt": "Rewrite {input} to convey the same meaning using simpler terms and focusing on practical action or measurement.",
+  "created_at": {
+    "$date": "2025-07-07T09:44:06.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686ba048cd81a94790a58e93"
+  },
+  "augmentation_name": "sample34",
+  "description": "test",
+  "datasetId": "684bd99535e0c9b46a786dfd",
+  "examples": [
+    {
+      "original_input": "what is lenghth of wire",
+      "augmented_input": "how much wire"
+    }
+  ],
+  "prompt": "Transform the input {input} into a concise query by rephrasing or simplifying the question to focus on the core concept, removing any redundant words or specific phrasing.",
+  "created_at": {
+    "$date": "2025-07-07T10:24:08.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686ba246cd81a94790a58e99"
+  },
+  "augmentation_name": "testing",
+  "description": "testing",
+  "datasetId": "684bd99535e0c9b46a786dfd",
+  "examples": [
+    {
+      "original_input": "testing ",
+      "augmented_input": "testing"
+    }
+  ],
+  "prompt": "Remove any trailing spaces from the input text {input}.",
+  "created_at": {
+    "$date": "2025-07-07T10:32:38.055Z"
+  }
+}]
